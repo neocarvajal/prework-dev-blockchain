@@ -5,16 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dapp</title>
+    <style>
+        *{margin: 0; padding:0;}
+        
+        body {background-color: rgb(3, 1, 86); color:#98ca3f}
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top:3em;
+        }
+        .item {
+            padding: 1em;
+        }
+        .goerli {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-block;
+            font-weight: 200;
+            color: #212529;
+            text-align: center;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            color: #fff;
+            background-color: #007bff;
+        }
+
+        .btn:hover{
+            background-color: #0069d9;
+
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <input disabled type="text" id="counter" />
-        <button onclick="increment()" type="button">Increment</button>
-        <button onclick="getCounter()" type="button">Get Counter</button>
+    <h1 class="container">
+        Hardhat Contract
+    </h1>
+    <pre class="goerli"><a href="https://goerli.etherscan.io/address/0x6BE8bf520f0aF1b5b62Bf772460F59dB18AD94e0" target="_blank">See Contract in Goerli EtherScan</a></pre>
+    
+    <div class="container">
+        <input class="item" disabled type="text" id="counter" />
+        <button class="item" onclick="increment()" type="button" class="btn">Increment</button>
+        <button class="item" onclick="getCounter()" type="button" class="btn">Get Counter</button>
     </div>
-    <div>
-        <input type="number" id="count"/>
-        <button onclick="setCounter()" type="button" id="submit">Set Counter</button>
+
+    <div class="container">
+        <input class="item" type="number" id="count"/>
+        <button class="item" class="btn" onclick="setCounter()" type="button" id="submit">Set Counter</button>
     </div>
     
     <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
