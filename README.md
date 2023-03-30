@@ -1,6 +1,6 @@
 # prework-dev-blockchain
 
-See Contract in Goerli Network [View Contract](https://goerli.etherscan.io/address/0x6BE8bf520f0aF1b5b62Bf772460F59dB18AD94e0){:target="_blank" rel="noopener"}
+See Contract in Goerli Network [View Contract](https://goerli.etherscan.io/address/0x6BE8bf520f0aF1b5b62Bf772460F59dB18AD94e0)
 
 #### Hardhart Config with Metamask
 
