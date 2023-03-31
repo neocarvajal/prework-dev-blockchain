@@ -1,5 +1,7 @@
 # prework-dev-blockchain
 
+See Contract in Goerli Network [View Contract](https://goerli.etherscan.io/address/0x6BE8bf520f0aF1b5b62Bf772460F59dB18AD94e0)
+
 #### Hardhart Config with Metamask
 
 1 - Create your Alchemy App in Goerli Network and get the HTTPS App Key
