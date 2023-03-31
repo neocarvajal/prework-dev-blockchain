@@ -132,6 +132,7 @@
             event.preventDefault();
             let count = document.getElementById('count').value;
             setCounter(count);
+            document.getElementById('count').value = 0;
         });
 
         async function setCounter(count) {
